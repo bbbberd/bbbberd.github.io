@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto" data-theme="dark">
+<html lang="en" dir="auto" data-theme="auto">
 
 <head>
 	<meta name="generator" content="Hugo 0.160.1"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
@@ -20,6 +20,7 @@
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
 <link rel="alternate" type="application/rss+xml" href="http://localhost:1313/index.xml" title="rss">
+<link rel="alternate" type="application/json" href="http://localhost:1313/index.json" title="json">
 <link rel="alternate" hreflang="en" href="http://localhost:1313/">
 <noscript>
     <style>
@@ -29,9 +30,40 @@
         }
 
     </style>
+    <style>
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --theme: rgb(29, 30, 32);
+                --entry: rgb(46, 46, 51);
+                --primary: rgb(218, 218, 219);
+                --secondary: rgb(155, 156, 157);
+                --tertiary: rgb(65, 66, 68);
+                --content: rgb(196, 196, 197);
+                --code-block-bg: rgb(46, 46, 51);
+                --code-bg: rgb(55, 56, 62);
+                --border: rgb(51, 51, 51);
+                color-scheme: dark;
+            }
+
+            .list {
+                background: var(--theme);
+            }
+
+            .toc {
+                background: var(--entry);
+            }
+        }
+
+    </style>
 </noscript>
 <script>
-    if (localStorage.getItem("pref-theme") === "light") {
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else if (localStorage.getItem("pref-theme") === "light") {
+       document.querySelector("html").dataset.theme = 'light';
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.querySelector("html").dataset.theme = 'dark';
+    } else {
         document.querySelector("html").dataset.theme = 'light';
     }
 
@@ -72,21 +104,41 @@
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/about/" title="About">
-                    <span>About</span>
+                <a href="http://localhost:1313/projects/" title="Projects">
+                    <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/projects/" title="Projects">
-                    <span>Projects</span>
+                <a href="http://localhost:1313/journal/" title="Journal">
+                    <span>Journal</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:1313/about/" title="About">
+                    <span>About</span>
                 </a>
             </li>
         </ul>
     </nav>
 </header>
 <main class="main"> 
+<article class="first-entry home-info">
+    <header class="entry-header">
+        <h1>Hi, I&rsquo;m Birdie 👋</h1>
+    </header>
+    <div class="entry-content md-content">
+        
+        <p>I write code, learning, and building things.</p>
 
-<article class="first-entry"> 
+    </div>
+    <footer class="entry-footer">
+        <div class="social-icons" >
+</div>
+
+    </footer>
+</article>
+
+<article class="post-entry"> 
   <header class="entry-header">
     <h2 class="entry-hint-parent">Post Kedua
     </h2>
