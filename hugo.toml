@@ -1,0 +1,14 @@
+baseURL = 'https://bbbberd.github.io/'
+locale = 'id-id'
+title = 'Birdie'
+theme = 'PaperMod'
+
+[pagination]
+pagerSize = 5
+
+[params]
+defaultTheme = 'dark'
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
