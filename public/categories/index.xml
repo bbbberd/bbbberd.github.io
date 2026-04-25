@@ -6,6 +6,14 @@
     <description>Recent content in Categories on Birdie</description>
     <generator>Hugo</generator>
     <language>id-id</language>
+    <lastBuildDate>Sat, 25 Apr 2026 18:27:11 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tech</title>
+      <link>http://localhost:1313/categories/tech/</link>
+      <pubDate>Sat, 25 Apr 2026 18:27:11 +0700</pubDate>
+      <guid>http://localhost:1313/categories/tech/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
