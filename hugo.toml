@@ -12,7 +12,14 @@ ShowReadingTime = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowToc = true
-ShowShareButtons = true
+ShowShareButtons = false
+disableSpecial1stPost = true
+canonifyURLs = true
+
+[markup]
+  [markup.highlight]
+    style = "dracula"
+    lineNos = true
 
 [params.homeInfoParams]
 Title = "Hi, I'm Birdie 👋"

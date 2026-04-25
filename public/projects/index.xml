@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Projects on Birdie</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Birdie</description>
+    <generator>Hugo</generator>
+    <language>id-id</language>
+    <lastBuildDate>Sat, 25 Apr 2026 20:02:29 +0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Birdie Blog</title>
+      <link>http://localhost:1313/projects/hugo-blog/</link>
+      <pubDate>Sat, 25 Apr 2026 20:02:29 +0700</pubDate>
+      <guid>http://localhost:1313/projects/hugo-blog/</guid>
+      <description>&lt;p&gt;A personal developer blog built using Hugo + GitHub Pages.&lt;/p&gt;
+&lt;p&gt;Tech stack:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;PaperMod&lt;/li&gt;
+&lt;li&gt;GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+  </channel>
+</rss>

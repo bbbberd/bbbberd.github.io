@@ -20,7 +20,9 @@
       <link>http://localhost:1313/posts/post-pertama/</link>
       <pubDate>Sat, 25 Apr 2026 18:14:47 +0700</pubDate>
       <guid>http://localhost:1313/posts/post-pertama/</guid>
-      <description>&lt;p&gt;Halo Whenua!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello world or should i say &amp;ldquo;Halo Whenua!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;“Whenua,” is spelled “Benua” its an old world word, means a world or a landmass where, as far as the eye can see, no ocean is in sight.
+or a new world/place our ancestor visit&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

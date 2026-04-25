@@ -6,8 +6,46 @@
     <description>Recent content on Birdie</description>
     <generator>Hugo</generator>
     <language>id-id</language>
-    <lastBuildDate>Sat, 25 Apr 2026 18:27:11 +0700</lastBuildDate>
+    <lastBuildDate>Sat, 25 Apr 2026 20:03:17 +0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Day 1 - Starting Developer Blog</title>
+      <link>http://localhost:1313/journal/day-1/</link>
+      <pubDate>Sat, 25 Apr 2026 20:03:17 +0700</pubDate>
+      <guid>http://localhost:1313/journal/day-1/</guid>
+      <description>&lt;p&gt;Today I set up my developer blog using Hugo.&lt;/p&gt;
+&lt;p&gt;I learned:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Markdown basics&lt;/li&gt;
+&lt;li&gt;GitHub Pages deployment&lt;/li&gt;
+&lt;li&gt;Theme configuration&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>Birdie Blog</title>
+      <link>http://localhost:1313/projects/hugo-blog/</link>
+      <pubDate>Sat, 25 Apr 2026 20:02:29 +0700</pubDate>
+      <guid>http://localhost:1313/projects/hugo-blog/</guid>
+      <description>&lt;p&gt;A personal developer blog built using Hugo + GitHub Pages.&lt;/p&gt;
+&lt;p&gt;Tech stack:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Hugo&lt;/li&gt;
+&lt;li&gt;PaperMod&lt;/li&gt;
+&lt;li&gt;GitHub Actions&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    <item>
+      <title>About me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 25 Apr 2026 18:51:11 +0700</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;p&gt;Hi, I&amp;rsquo;m Birdie.&lt;/p&gt;
+&lt;p&gt;I’m learning software engineering, C++, and building projects while documenting my journey.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Tech: C++, Git, Web Dev&lt;/li&gt;
+&lt;li&gt;Interest: Game dev, systems, tools programming&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     <item>
       <title>Post Kedua</title>
       <link>http://localhost:1313/posts/post-kedua/</link>
@@ -20,7 +58,9 @@
       <link>http://localhost:1313/posts/post-pertama/</link>
       <pubDate>Sat, 25 Apr 2026 18:14:47 +0700</pubDate>
       <guid>http://localhost:1313/posts/post-pertama/</guid>
-      <description>&lt;p&gt;Halo Whenua!&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello world or should i say &amp;ldquo;Halo Whenua!&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;“Whenua,” is spelled “Benua” its an old world word, means a world or a landmass where, as far as the eye can see, no ocean is in sight.
+or a new world/place our ancestor visit&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
